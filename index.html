@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+
+<html lang = en>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="StyleSheet" href="css/normalize.css">
+        <link rel="StyleSheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Charmonman&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+      <nav class="sidenav">
+        <img src="../img/profile.jpg" class="profile-img" alt="image of Melissa">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="mailto:megarciade@outlook.com">Contact</a>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/melissa-garc%C3%ADa-de-la-noceda-b72677135/" class="social linkedin">LinkedIn</a></li>
+          <li><a href="https://github.com/MGarcia05" class="social github">Github</a></li>
+        </ul>
+      </nav>
+    <main>
+
+      <div class="main">
+
+        <div class="about" id="about">
+
+            <h3>Melissa García</h3>
+            <hr>
+            <h4>Web developer, writer, kayaker. Always learning.</h4>
+
+            <h4>Let's make something beautiful together.</h4>
+
+
+        </div>
+
+
+                <div class="flip-card" id="projects">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="../img/dinoday.jpg" alt="Avatar" style="width:275px;height:275px;">
+                      </div>
+
+                    <div class="flip-card-back">
+                      <h1>Dino Day Conference</h1>
+                      <a href="https://mgarcia05.github.io/DinoDay/" class="btn btn-primary" data-toggle="button" >Visit Site</a>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalDino">Info</button>
+
+                      <h2>Bootstrap | Custom CSS</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="../img/focusvibes.jpg" alt="Avatar" style="width:275px;height:275px;">
+                      </div>
+
+                    <div class="flip-card-back">
+                      <h1>Ambient Focus Site</h1>
+                      <a href="https://mgarcia05.github.io/FocusVibes/" class="btn btn-primary" data-toggle="button" >Visit Site</a>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalFocus">Info</button>
+
+                      <h2>JavaScript | CSS</h2>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="../img/apidirectory.jpg" alt="Avatar" style="width:275px;height:275px;">
+                      </div>
+
+                    <div class="flip-card-back">
+                      <h1>Employee Directory</h1>
+                      <a href="https://mgarcia05.github.io/APIDirectory/" class="btn btn-primary" data-toggle="button">Visit Site</a>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalAPI">Info</button>
+
+                      <h2>JavaScript | API</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="../img/webapp.jpg" alt="Avatar" style="width:275px;height:275px;">
+                      </div>
+
+                    <div class="flip-card-back">
+                      <h1>WebApp</h1>
+                      <a href="https://mgarcia05.github.io/WebApp/" class="btn btn-primary" data-toggle="button">Visit Site</a>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalWebApp">Info</button>
+
+                      <h2>CSS | JavaScript</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="../img/styling.jpg" alt="Avatar" style="width:275px;height:275px;">
+                      </div>
+
+                    <div class="flip-card-back">
+                      <h1>Web Styling Guide</h1>
+                      <a href="https://mgarcia05.github.io/WebStyling/" class="btn btn-primary" data-toggle="button">Visit Site</a>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalStyling">Info</button>
+                      <h2>SCSS | CSS</h2>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Modal -->
+                <div class="modal" tabindex="-1" role="dialog" id="modalDino">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Info</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Using Bootstrap, created conference website. Inspired by practice lesson in Treehouse Techdegree.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://mgarcia05.github.io/DinoDay/" class="btn btn-primary" data-toggle="button">Visit</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="modal" tabindex="-1" role="dialog" id="modalFocus">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Info</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Created 5 different environments to choose from, using JavaScript to create a tasklist and audio buttons. Small passion project.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://mgarcia05.github.io/FocusVibes/" class="btn btn-primary" data-toggle="button">Visit</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="modal" tabindex="-1" role="dialog" id="modalAPI">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Info</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Used JavaScript to create an employee directory by communicating with a third-party API. Project for Treehouse Techdegree.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://mgarcia05.github.io/APIDirectory/" class="btn btn-primary" data-toggle="button">Visit</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="modal" tabindex="-1" role="dialog" id="modalWebApp">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Info</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Created interactive graphs with JavaScript, using CSS to match mockup. Project for Treehouse Techdegree.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://mgarcia05.github.io/WebApp/" class="btn btn-primary" data-toggle="button">Visit</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="modal" tabindex="-1" role="dialog" id="modalStyling">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Info</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Using Sass, compiled a web styling guide applicable to any project. Project for Treehouse Techdegree.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://mgarcia05.github.io/WebStyling/" class="btn btn-primary" data-toggle="button">Visit</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+
+                <article class="card">
+                    <h5>Familiar with:</h5>
+                    <ul class="skills">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Sass</li>
+                      <li>Bootstrap</li>
+                      <li>JavaScript</li>
+                    </ul>
+                    <h5>Next up:</h5>
+                    <ul class="skills">
+                      <li>React</li>
+                      <li>WordPress</li>
+                      <li>PHP</li>
+                    </ul>
+                </article>
+
+      </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </main>
+    </body>
+    </html>
