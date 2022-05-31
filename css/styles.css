@@ -141,7 +141,7 @@ h4 {
   font-weight: 400;
   margin-bottom: 15px;
   font-size: 22px;
-  color: grey;
+  color: rgb(77, 76, 76);
 }
 
 hr {
@@ -218,7 +218,7 @@ button {
 /* Style the back side */
 .flip-card-back {
   background-color: #91a674;
-  color: #efcf30;
+  color: #ffffff;
   transform: rotateY(180deg);
 }
 
